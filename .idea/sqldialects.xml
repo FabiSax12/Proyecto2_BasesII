@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/SQL-Server/01-Tablas.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL-Server/02-Datos_Prueba.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL-Server/03-Procedimientos.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/SQL-Server/04-Test_Procedimientos.sql" dialect="TSQL" />
+  </component>
+</project>
