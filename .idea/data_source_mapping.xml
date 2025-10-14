@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/SQL-Server/01-Tablas.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
-    <file url="file://$PROJECT_DIR$/SQL-Server/02-Datos_Prueba.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
-    <file url="file://$PROJECT_DIR$/SQL-Server/03-Procedimientos.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
-    <file url="file://$PROJECT_DIR$/SQL-Server/04-Test_Procedimientos.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
+    <file url="file://$PROJECT_DIR$/02-SQL_Server/01-Tablas.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
+    <file url="file://$PROJECT_DIR$/02-SQL_Server/02-Datos_Prueba.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
+    <file url="file://$PROJECT_DIR$/02-SQL_Server/03-Procedimientos.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
+    <file url="file://$PROJECT_DIR$/02-SQL_Server/04-Test_Procedimientos.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
+    <file url="file://$PROJECT_DIR$/02-SQL_Server/05-Usuarios_Roles.sql" value="38e3a83e-3948-46ca-ae18-b44bb4b7cfaf" />
   </component>
 </project>

@@ -342,44 +342,25 @@ EXEC sp_aplicar_descuento_convenio @id_factura = 4;
 
 ---
 
-## 🔐 Seguridad y Roles
+## 🔐 Usuarios Creados
 
-### Roles Recomendados
+1. usr_fdw_pg_mssql
 
-#### 1. **usr_fdw_pg_mssql** (Para integración con PostgreSQL)
-```sql
-CREATE LOGIN usr_fdw_pg_mssql WITH PASSWORD = 'Pass_Secure_123!';
-CREATE USER usr_fdw_pg_mssql FOR LOGIN usr_fdw_pg_mssql;
+- Propósito: Conexión desde PostgreSQL mediante FDW
+- Password: FDW_PostgreSQL_2025!
+- Permisos: Solo lectura (SELECT) + SPs de consulta
 
--- Permisos de solo lectura
-GRANT SELECT ON instituciones TO usr_fdw_pg_mssql;
-GRANT SELECT ON paciente_integracion TO usr_fdw_pg_mssql;
-GRANT SELECT ON facturas_externas TO usr_fdw_pg_mssql;
-GRANT SELECT ON convenios_hospitalarios TO usr_fdw_pg_mssql;
-
--- Ejecutar procedimientos específicos
-GRANT EXECUTE ON sp_resumen_facturacion_institucion TO usr_fdw_pg_mssql;
-GRANT EXECUTE ON sp_consultar_estado_paciente TO usr_fdw_pg_mssql;
-```
-
-#### 2. **usr_api_web** (Para aplicación web)
-```sql
-CREATE LOGIN usr_api_web WITH PASSWORD = 'WebAPI_2025!';
-CREATE USER usr_api_web FOR LOGIN usr_api_web;
-
--- Lectura y ejecución de procedimientos
-GRANT SELECT ON instituciones TO usr_api_web;
-GRANT SELECT ON facturas_externas TO usr_api_web;
-GRANT EXECUTE ON sp_consultar_estado_paciente TO usr_api_web;
-GRANT EXECUTE ON sp_reporte_convenios_activos TO usr_api_web;
-```
+2. usr_admin
+- Propósito: Administración del sistema
+- Password: Admin_SuperSecure_2025!
+- Permisos: Control total (db_owner)
 
 ---
 
-## 📁 Estructura de Archivos Entregables
+## 📁 Estructura de Archivos
 
 ```
-PERSONA_2_SQL_SERVER/
+02-SQL_SERVER/
 │
 ├── 01_crear_base_datos.sql             # Creación de DB y tablas
 ├── 02_datos_de_prueba.sql              # Datos de ejemplo
