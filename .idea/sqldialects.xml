@@ -6,5 +6,10 @@
     <file url="file://$PROJECT_DIR$/02-SQL_Server/03-Procedimientos.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/02-SQL_Server/04-Test_Procedimientos.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/02-SQL_Server/05-Usuarios_Roles.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/03-MongoDB/01-colecciones.js" dialect="MongoDB" />
+    <file url="file://$PROJECT_DIR$/03-MongoDB/02-indices.js" dialect="MongoDB" />
+    <file url="file://$PROJECT_DIR$/03-MongoDB/03-datos_prueba.js" dialect="MongoDB" />
+    <file url="file://$PROJECT_DIR$/03-MongoDB/04-agregaciones.js" dialect="MongoDB" />
+    <file url="file://$PROJECT_DIR$/03-MongoDB/05-usuarios.js" dialect="MongoDB" />
   </component>
 </project>
