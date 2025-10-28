@@ -14,8 +14,8 @@ INSERT INTO clinica.pacientes(nombre, cedula, region, fecha_nacimiento, telefono
 
 -- Citas
 INSERT INTO clinica.citas(id_paciente, region, id_medico, fecha, tipo_estudio) VALUES
-(1, 'San José', 1, '2025-10-20 09:00:00', 'Electrocardiograma'),
-(2, 'Alajuela', 3, '2025-10-21 10:30:00', 'Consulta General');
+(4, 'San José', 1, '2025-11-20 09:00:00', 'Electrocardiograma'),
+(5, 'Alajuela', 3, '2025-11-21 10:30:00', 'Consulta General');
 
 -- Estudios
 INSERT INTO clinica.estudios(id_cita, tipo_estudio, resultado, estado) VALUES
