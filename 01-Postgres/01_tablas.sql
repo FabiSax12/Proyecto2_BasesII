@@ -1,3 +1,5 @@
+CREATE SCHEMA IF NOT EXISTS clinica;
+
 CREATE TABLE clinica.pacientes (
     id_paciente SERIAL,
     nombre VARCHAR(100) NOT NULL,
@@ -48,3 +50,4 @@ CREATE TABLE clinica.estudios (
     archivo_adjunto VARCHAR(255), -- ruta o referencia
     observaciones TEXT
 );
+
